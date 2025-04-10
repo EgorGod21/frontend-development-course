@@ -3,6 +3,6 @@ module.exports = {
     transform: {
         '^.+\\.js$': 'babel-jest',
     },
-    testMatch: ['**/src/**/*.(test|spec).js'],
+    testMatch: ['**/src/**/*.test.js'],
     moduleFileExtensions: ['js', 'json', 'node'],
 };
